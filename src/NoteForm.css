@@ -1,0 +1,48 @@
+
+
+.note-form {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+
+  .error {
+    font-size: 15px;
+    color:orange;
+  }
+  
+  .note-form h2 {
+    color: grey;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .note-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .note-form input,
+  .note-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .note-form button {
+    background-color:orange;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .note-form button:hover {
+    background-color: rgb(242, 161, 9);
+  }
+  
